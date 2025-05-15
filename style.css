@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #CD5D5D;
+}
+.a{
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.a b{
+    color: yellow;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+nav ul{
+    display: flex;
+    gap: 92px;
+    align-items: center;
+}
+ul h1{
+    color: rgb(0, 0, 0);
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+}
+ul li{
+    color: rgb(35, 0, 255);
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-decoration-line: underline;
+list-style: none;
+}
+.c{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 100px;
+padding:0 174px;
+margin-top: 50px;
+}
+.c img{
+width: 300px;
+height: 140px;
+margin-bottom: -10px;
+}
+.c .u{
+width: 300px;
+height: 170px;
+background-color: rgb(1, 1, 1);
+color: rgb(255, 255, 255);
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+padding: 30px 35px;
+}
